@@ -97,6 +97,13 @@ Models can be switched depending on:
 
 ## 🛠 How to Run
 
-### 1️⃣ Clone the Repository
+### 1️⃣ Install Dependencies
 
 ```bash
+pip install -r requirements.txt
+```
+
+### 1️⃣ Run the Streamlit app
+    ```bash
+    streamlit run ai_data_visualisation_agent.py
+    ```
