@@ -1,11 +1,30 @@
 # 📊 AI Data Analysis Agent
 
-### 🎓 FREE Step-by-Step Tutorial 
-**👉 [Click here to follow our complete step-by-step tutorial](https://www.theunwindai.com/p/build-an-ai-data-analysis-agent) and learn how to build this from scratch with detailed code walkthroughs, explanations, and best practices.**
+An AI-powered Data Analyst Agent built using the Agno Agent framework, Streamlit, and advanced language models. This application allows users to upload CSV or Excel files and analyze their data using natural language queries - automatically converting questions into SQL, executing them, and returning accurate insights.
 
-An AI data analysis Agent built using the Agno Agent framework and Openai's gpt-4o model. This agent helps users analyze their data - csv, excel files through natural language queries, powered by OpenAI's language models and DuckDB for efficient data processing - making data analysis accessible to users regardless of their SQL expertise.
+## 🚀 Overview
 
-## Features
+This project enables seamless data exploration through a conversational interface. Users can upload datasets and ask business questions in plain English without writing SQL. The system processes the data, runs structured queries, and returns computed results with transparency.
+
+It demonstrates applied skills in:
+
+- LLM-powered agents
+- Natural language → SQL conversion
+- Data engineering workflows
+- Tool-integrated AI systems
+- Interactive analytics applications
+
+---
+
+🧠 Tech Stack
+
+- Agent Framework: Agno Agent
+- Database Engine: DuckDB
+- Data Processing: Pandas
+- Frontend/UI: Streamlit
+- Language: Python
+
+### ✨ Features
 
 - 📤 **File Upload Support**: 
   - Upload CSV and Excel files
@@ -30,20 +49,12 @@ An AI data analysis Agent built using the Agno Agent framework and Openai's gpt-
 
 ## How to Run
 
-1. **Setup Environment**
+1. **Install Dependencies**
    ```bash
-   # Clone the repository
-   git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-   cd awesome-llm-apps/starter_ai_agents/ai_data_analysis_agent
-
-   # Install dependencies
-   pip install -r requirements.txt
+   pip install streamlit pandas duckdb requests agno
    ```
 
-2. **Configure API Keys**
-   - Get OpenAI API key from [OpenAI Platform](https://platform.openai.com)
-
-3. **Run the Application**
+2. **Run the Application**
    ```bash
    streamlit run ai_data_analyst.py
    ```
@@ -51,7 +62,6 @@ An AI data analysis Agent built using the Agno Agent framework and Openai's gpt-
 ## Usage
 
 1. Launch the application using the command above
-2. Provide your OpenAI API key in the sidebar of Streamlit
 3. Upload your CSV or Excel file through the Streamlit interface
 4. Ask questions about your data in natural language
 5. View the results and generated visualizations
