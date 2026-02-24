@@ -1,6 +1,6 @@
 # 📊 AI Data Analysis Agent
 
-An AI-powered Data Analyst Agent built using the Agno Agent framework, Streamlit, and advanced language models. This application allows users to upload CSV or Excel files and analyze their data using natural language queries - automatically converting questions into SQL, executing them, and returning accurate insights.
+An AI-powered Data Analyst Agent built using the Agno Agent framework, Streamlit, and **locally hosted Ollama model**. This application allows users to upload CSV or Excel files and analyze their data using natural language queries - automatically converting questions into SQL, executing them, and returning accurate insights.
 
 ## 🚀 Overview
 
@@ -18,6 +18,7 @@ It demonstrates applied skills in:
 
 🧠 Tech Stack
 
+- LLM Runtime: Local Ollama Model  
 - Agent Framework: Agno Agent
 - Database Engine: DuckDB
 - Data Processing: Pandas
