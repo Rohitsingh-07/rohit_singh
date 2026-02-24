@@ -104,6 +104,6 @@ pip install -r requirements.txt
 ```
 
 ### 1️⃣ Run the Streamlit app
-    ```bash
-    streamlit run ai_data_visualisation_agent.py
-    ```
+```bash
+streamlit run ai_data_visualisation_agent.py
+```
