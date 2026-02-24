@@ -1,5 +1,10 @@
 # 📊 AI Data Visualization Agent
 
+<img width="1917" height="909" alt="image" src="https://github.com/user-attachments/assets/3f0693b6-3e6d-48d6-a120-681af9da46c1" />
+
+<img width="1919" height="913" alt="image" src="https://github.com/user-attachments/assets/eff25763-35b9-4b56-a71d-7b418ba18347" />
+
+
 A Streamlit application that acts as your personal **AI Data Visualization Expert**, powered by **local Ollama models**.  
 
 Simply upload your dataset and ask questions in natural language - the agent analyzes your data, generates appropriate visualizations, runs Python code dynamically, and provides clear insights with charts and statistics.
