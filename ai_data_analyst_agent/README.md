@@ -1,5 +1,7 @@
 # 📊 AI Data Analysis Agent
 
+<img width="1918" height="911" alt="image" src="https://github.com/user-attachments/assets/18017676-d8e8-4497-b00b-df4fc59e12dd" />
+
 An AI-powered Data Analyst Agent built using the Agno Agent framework, Streamlit, and **locally hosted Ollama model**. This application allows users to upload CSV or Excel files and analyze their data using natural language queries - automatically converting questions into SQL, executing them, and returning accurate insights.
 
 ## 🚀 Overview
@@ -68,4 +70,3 @@ It demonstrates applied skills in:
 4. Ask questions about your data in natural language
 5. View the results and generated visualizations
 
-<img width="1918" height="911" alt="image" src="https://github.com/user-attachments/assets/7e1dff0a-b8b5-468c-8bba-dbd1574f6bac" />
