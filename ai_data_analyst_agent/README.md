@@ -63,6 +63,7 @@ It demonstrates applied skills in:
 ## Usage
 
 1. Launch the application using the command above
-3. Upload your CSV or Excel file through the Streamlit interface
+2. Upload your CSV or Excel file through the Streamlit interface
+3. Select your available local Ollama model
 4. Ask questions about your data in natural language
 5. View the results and generated visualizations
