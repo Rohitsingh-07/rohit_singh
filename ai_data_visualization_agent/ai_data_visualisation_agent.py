@@ -55,11 +55,13 @@ def chat_with_llm(user_message: str, dataset_path: str) -> Tuple[str, str]:
     system_prompt = f"""
 You are a Python data scientist. The dataset is located at: {dataset_path}
 Instructions:
-- Use pandas and matplotlib or seaborn for visualization.
-- IMPORTANT: Always add data labels (values) on top of bars or points in the chart.
-- IMPORTANT: ROUND all data labels to 0 or 1 decimal place (e.g., use f-strings like f'{{val:.1f}}' or ax.bar_label with labels).
-- IMPORTANT: You MUST always end your code with 'plt.show()' to display the plot.
-- Always return explanation text and wrap Python code inside ```python ``` blocks.
+- Use pandas and matplotlib/seaborn.
+- IMPORTANT: To add data labels, use the simple method: 
+  'container = ax.bar(...)' followed by 'ax.bar_label(container, fmt="%.1f")'. 
+- DO NOT use a for-loop to index into 'ax.containers'.
+- Round labels to 1 decimal place.
+- You MUST end the code with 'plt.show()'.
+- Wrap Python code inside ```python ``` blocks.
 """
 
     response = ollama.chat(
