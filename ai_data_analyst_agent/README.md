@@ -67,3 +67,5 @@ It demonstrates applied skills in:
 3. Select your available local Ollama model
 4. Ask questions about your data in natural language
 5. View the results and generated visualizations
+
+<img width="1918" height="911" alt="image" src="https://github.com/user-attachments/assets/7e1dff0a-b8b5-468c-8bba-dbd1574f6bac" />
